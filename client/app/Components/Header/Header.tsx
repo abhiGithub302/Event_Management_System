@@ -19,7 +19,7 @@ function Header() {
         {/* Left side - Welcome message */}
         <div className="w-full sm:w-auto">
           <h1 className="text-xl sm:text-2xl font-medium text-gray-900">
-            {userId ? `Welcome, ${name}!` : "Welcome to Event"}
+            {userId ? `Welcome, ${name}!` : "Welcome to EventEase"}
           </h1>
           <p className="text-sm sm:text-base text-gray-600 mt-1">
             {userId ? (
