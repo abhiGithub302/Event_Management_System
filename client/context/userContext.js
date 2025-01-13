@@ -10,7 +10,7 @@ axios.defaults.withCredentials = true;
 
 export const UserContextProvider = ({ children }) => {
   // const serverUrl = "https://taskfyer.onrender.com";
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://ems-backend-tcwu.onrender.com";
 
 
   const router = useRouter();
