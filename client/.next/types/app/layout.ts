@@ -1,4 +1,4 @@
-// File: /home/abhishek/Desktop/event/client/app/layout.tsx
+// File: /home/abhishek/Desktop/Event_Management_System/client/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
