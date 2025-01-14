@@ -1,3 +1,4 @@
+
 # EventEase
 
 EventEase is a comprehensive event management platform built using Next.js, designed to simplify event creation, management, and real-time attendee engagement. It offers seamless user experiences for attendees, organizers, and administrators with real-time updates and efficient workflows.
@@ -77,9 +78,46 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/abhiGithub302/Event_Management_System.git
-2.Navigate to the project directory:
-  ```bash
-  cd Event_Management_System
-3.Install dependencies:
-  ```bash
-  npm install
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Event_Management_System
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Environment Variables
+   Create a .env.local file in the project root and add the following variables:
+
+   ```bash
+   MONGO_URI= ""
+   JWT_SECRET=""
+   CLIENT_URL="http://localhost:3000"
+   PORT=8000
+   ```
+
+
+## Usage
+
+### Development
+1. Start the backend server (assumes a separate backend setup):
+   ```bash
+   cd backend
+   npm start
+   ```
+2. Start the Next.js frontend:
+   ```bash
+   npm run dev
+   ```
+3. Access the application at http://localhost:3000.
+
+### Production
+For production deployment, ensure all environment variables are correctly configured, and deploy the frontend to Vercel and the backend to Render.
+
+## Contributing
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
+## License
+This project is licensed under the MIT License.
+This update includes both frontend and backend features for a well-rounded event management system. Let me know if there’s anything else you’d like to tweak or enhance!
